@@ -2,7 +2,7 @@
 /**
 * Header created by Aspective Solutions
 *
-* @package TruVox-AS
+* @package TruVox
 */
 ?>
 <!DOCTYPE html>

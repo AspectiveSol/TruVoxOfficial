@@ -1,7 +1,7 @@
 <?php
 /**
 *	Template used for displaying page content in page.php
-*	@package TruVox-AS
+*	@package TruVox
 */
 ?>
 
@@ -15,13 +15,13 @@
 	<div class="entry-content">
 		<?php the_content();?>
 		<?php wp_link_page( array(
-			'before' => '<div class="page-links">'. __( 'Pages:','TruVox-AS'),
+			'before' => '<div class="page-links">'. __( 'Pages:','TruVox'),
 			'after' => '</div>', ));
 		?>
 	</div>
 	
 	<footer class="entry-footer">
-		<?php edit_post_link( __( 'Edit', "TruVox-AS"), '<span class"edit-link">','</span>'); ?>
+		<?php edit_post_link( __( 'Edit', "TruVox"), '<span class"edit-link">','</span>'); ?>
 	</footer>
 	</div>
 </article>
