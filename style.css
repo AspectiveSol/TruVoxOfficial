@@ -31,7 +31,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('Newspaper.jpeg')!important;
+    background-image: url('img/Newspaper.jpeg')!important;
     min-height: 100%;
 }
 .smm{
