@@ -2,7 +2,7 @@
 /**
 * Main Page Template file
 *
-* @package TruVox
+* @package TruVox-AS
 */
 
 get_header();?>

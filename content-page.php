@@ -1,7 +1,7 @@
 <?php
 /**
 *	Template used for displaying page content in page.php
-*	@package TruVox
+*	@package TruVox-AS
 */
 ?>
 
