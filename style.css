@@ -20,7 +20,6 @@ body, html {
     color: #777;
     line-height: 1.8;
 }
-
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
@@ -30,10 +29,10 @@ body, html {
 }
 
 /* First image (Logo. Full height) */
-.bgimg-1 {
-    background-image: url('img/Newspaper.jpeg')!important;
+/*.bgimg-1 {
+    background-image: url('<?php echo get_template_directory_uri(); ?>/img/Newspaper.jpeg')!important;
     min-height: 100%;
-}
+}*/
 .smm{
     color: #fff;
 }

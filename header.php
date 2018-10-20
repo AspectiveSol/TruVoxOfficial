@@ -17,8 +17,8 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="js/modals.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
+	<script src="<?php echo get_template_directory_uri(); ?>/js/modals.js"></script>
 	<!-- This is from FrontEnd Development END -->
 
 	<?php if ( !function_exists('has_site_icon') || !has_site_icon() ) : ?>
@@ -29,6 +29,17 @@
 
 	<?php wp_head(); ?>
 </head>
+<style>
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('<?php echo get_template_directory_uri(); ?>/img/Newspaper.jpeg')!important;
+    min-height: 100%;
+
+}
+html{
+	margin-top:0px !important;
+}
+</style>
 
 <!-- This is from the FrontEnd Development -->
 <body <?php body_class(); ?>>
@@ -62,7 +73,7 @@
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">WELCOME<span class="w3-hide-small"> TO</span> TRU VOX</span>
   </div>
 </div>
 <!-- This is from the FrontEnd Development END -->
