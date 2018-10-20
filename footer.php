@@ -17,7 +17,7 @@
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
-  <p>Powered by <a href="https://aspectivesolutions.com/" title="Aspective Solutions" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Powered by <a href="https://AspectiveSolutions.com" title="Aspective Solutions" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
 </body>

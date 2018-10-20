@@ -2,7 +2,7 @@
 /**
  * TruVox functions and definitions
  *
- * @package TruVox
+ * @package TruVox-AS
  */
 
 
